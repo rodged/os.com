@@ -1,0 +1,76 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    background-color: #808080;
+    font-weight: bold;
+
+}
+section h1{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: #222;
+    font-weight: 800;
+    padding: 15px;
+    color: darkred;
+    z-index: 999;
+    
+    width: 50px;
+
+    
+
+}
+section{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    color: #222;
+    place-content: center;
+
+}
+.worefa section:nth-child(1){
+    background: #faded7;
+}
+.worefa section:nth-child(2){
+    background: #feffbf;
+}
+.worefa section:nth-child(3){
+    background: #b0efef;
+
+}
+.worefa section:nth-child(4){
+    background: #b0e;
+
+}
+.lerp-wrap{
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 1.5rem;
+    line-height: 1.5;
+
+}
+.lerp-wrap span{
+    display: inline-block;
+    font-size: clamp(32px, 5vw, 8vw);
+    box-shadow: rgba(0,0,0,0.2) 0px 60px 40px -7px;
+    font-size: 100px;
+    padding: 30px;
+    
+
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    width: 10px;
+    background: rgb(80, 1, 1);
+
+}
+::-webkit-scrollbar-thumb{
+    height: 25%;
+    background: rosybrown;
+
+}
